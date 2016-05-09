@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Student.h
+string
+-
+
+/home/liuxg/qml/exploringBB/extras/cmake/studentlib_shared/src/Student.cpp
+iostream
+-
+Student.h
+/home/liuxg/qml/exploringBB/extras/cmake/studentlib_shared/src/Student.h
+
